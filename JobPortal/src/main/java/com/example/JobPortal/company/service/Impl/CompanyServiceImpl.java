@@ -1,13 +1,12 @@
-package com.example.JobPortal.service.Impl;
+package com.example.JobPortal.company.service.Impl;
 
+import com.example.JobPortal.company.service.ICompanyService;
 import com.example.JobPortal.dto.CompanyDto;
 import com.example.JobPortal.entity.Company;
 import com.example.JobPortal.repository.CompanyRepository;
-import com.example.JobPortal.service.ICompanyService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
